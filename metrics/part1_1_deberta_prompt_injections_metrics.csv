@@ -1,0 +1,2 @@
+loss,accuracy,precision,recall,f1_score,true_negatives,false_positives,false_negatives,true_positives,total_samples,error rate
+0.03315192088484764,0.9728155339805825,0.9868852459016394,0.9261538461538461,0.9555555555555556,1402,8,48,602,2060,0.027184466019417475

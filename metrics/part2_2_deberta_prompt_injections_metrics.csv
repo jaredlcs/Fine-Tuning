@@ -1,0 +1,2 @@
+loss,accuracy,precision,recall,f1_score,true_negatives,false_positives,false_negatives,true_positives,total_samples,error_rate,best_epoch
+0.17874078595003326,0.9497346237901967,0.9573385518590998,0.9791833466773419,0.9681377399564616,596,109,52,2446,3203,0.05026537620980331,4
