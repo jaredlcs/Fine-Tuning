@@ -1,0 +1,27 @@
+# Model artifacts and checkpoints
+prompt-injection-detection/models/
+prompt-injection-detection/hf_deberta_finetuned/
+
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+
+# Optional: generic heavy / run outputs
+checkpoints/
+runs/
+logs/
+*.tar
+*.zip
+*.npz
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+data/
+checkpoints/
+logs/
