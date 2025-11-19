@@ -1,6 +1,8 @@
 # Model artifacts and checkpoints
-prompt-injection-detection/models/
-prompt-injection-detection/hf_deberta_finetuned/
+# Model artifacts and checkpoints
+# Do NOT ignore the whole models folder anymore
+# Instead ignore only heavy model files by extension
+
 
 *.pt
 *.bin

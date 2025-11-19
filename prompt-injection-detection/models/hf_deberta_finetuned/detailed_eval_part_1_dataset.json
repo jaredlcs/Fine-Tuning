@@ -1,0 +1,49 @@
+{
+  "dataset": "Part 1 Dataset",
+  "model_path": "./models/hf_deberta_finetuned",
+  "test_samples": 2060,
+  "test_loss": 0.03272198407201078,
+  "accuracy": 0.9946601941747573,
+  "precision": 0.9938176197836167,
+  "recall": 0.9892307692307692,
+  "f1": 0.9915188897455667,
+  "auc_roc": 0.9982018548827061,
+  "average_precision": 0.9982533993150984,
+  "confusion_matrix": [
+    [
+      1406,
+      4
+    ],
+    [
+      7,
+      643
+    ]
+  ],
+  "classification_report": {
+    "Safe": {
+      "precision": 0.9950460014154282,
+      "recall": 0.9971631205673759,
+      "f1-score": 0.9961034360609281,
+      "support": 1410.0
+    },
+    "Prompt Injection": {
+      "precision": 0.9938176197836167,
+      "recall": 0.9892307692307692,
+      "f1-score": 0.9915188897455667,
+      "support": 650.0
+    },
+    "accuracy": 0.9946601941747573,
+    "macro avg": {
+      "precision": 0.9944318105995225,
+      "recall": 0.9931969448990725,
+      "f1-score": 0.9938111629032473,
+      "support": 2060.0
+    },
+    "weighted avg": {
+      "precision": 0.9946584052694682,
+      "recall": 0.9946601941747573,
+      "f1-score": 0.994656855912877,
+      "support": 2060.0
+    }
+  }
+}

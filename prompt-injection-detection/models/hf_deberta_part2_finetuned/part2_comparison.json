@@ -1,0 +1,30 @@
+{
+  "dataset_source": "Hugging Face: reshabhs/SPML_Chatbot_Prompt_Injection",
+  "evaluation_samples": null,
+  "pretrained_baseline_results": {
+    "accuracy": 0.27042218336247814,
+    "precision": 0.7905405405405406,
+    "recall": 0.0932865571679158,
+    "f1": 0.1668806161745828,
+    "loss": 11.214814681016994,
+    "auc_roc": 0.5039201654199814
+  },
+  "part2_finetuned_results": {
+    "accuracy": 0.783287534349238,
+    "precision": 0.783287534349238,
+    "recall": 1.0,
+    "f1": 0.8784758702808714,
+    "loss": 0.5244433930415118,
+    "auc_roc": 0.5073128352137395
+  },
+  "improvements": {
+    "accuracy": 0.5128653509867599,
+    "f1": 0.7115952541062885,
+    "precision": -0.007253006191302536,
+    "recall": 0.9067134428320842
+  },
+  "column_mapping": {
+    "text_col": "System Prompt",
+    "label_col": "Prompt injection"
+  }
+}

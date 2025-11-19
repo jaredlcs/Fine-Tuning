@@ -1,0 +1,17 @@
+{
+  "part2_dataset_source": "Hugging Face: reshabhs/SPML_Chatbot_Prompt_Injection",
+  "part2_finetuned_evaluation": {
+    "accuracy": 0.783287534349238,
+    "precision": 0.783287534349238,
+    "recall": 1.0,
+    "f1": 0.8784758702808714,
+    "loss": 0.5244433930415118,
+    "auc_roc": 0.5073128352137395
+  },
+  "column_mapping": {
+    "text_col": "System Prompt",
+    "label_col": "Prompt injection"
+  },
+  "evaluation_samples": null,
+  "model_path": "./models/hf_deberta_part2_finetuned"
+}
