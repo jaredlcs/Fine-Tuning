@@ -1,0 +1,54 @@
+{
+  "os":  "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python":  "CPython 3.13.1",
+  "startedAt":  "2025-11-20T04:39:36.529433Z",
+  "program":  "/home/ozr990/Fine-Tuning/new-fintuned-model/project.ipynb",
+  "codePath":  "new-fintuned-model/project.ipynb",
+  "codePathLocal":  "project.ipynb",
+  "git":  {
+    "remote":  "https://github.com/jaredlcs/Fine-Tuning.git",
+    "commit":  "05801ff32220396b18565dd7e5efecc55de7d913"
+  },
+  "email":  "gabriel.owusu01@utrgv.edu",
+  "root":  "/home/ozr990/Fine-Tuning/new-fintuned-model",
+  "host":  "AADL22121",
+  "executable":  "/usr/local/bin/python3",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  3,
+  "disk":  {
+    "/":  {
+      "total":  "1967317549056",
+      "used":  "351782744064"
+    }
+  },
+  "memory":  {
+    "total":  "270057459712"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-0e6ce027-8016-6e19-10a9-dba73ca33b1b"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-0225429e-db73-4160-55c8-d1d29a4916b3"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-fa99c0ca-df41-f015-6e20-42686005280f"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "ye3u2i52b8a1ic359n77bb2vf6sdl12r"
+}

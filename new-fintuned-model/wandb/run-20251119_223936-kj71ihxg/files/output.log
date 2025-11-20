@@ -1,0 +1,25 @@
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+/home/ozr990/.local/lib/python3.13/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+Fine-tuning completed! Model saved to ./hf_deberta_finetuned
+Trainer best metric: 0.9956310679611651
+Testing Fine-tuned model on\nOfficial Test Set
+Loading model...
+Model loaded!
+\nFine-tuned model Results:
+Samples: 2060, Loss: 0.0317
+Accuracy: 0.9956 (99.56%)
+Precision: 0.9969, Recall: 0.9892, F1: 0.9931
+TN: 1408, FP: 2, FN: 7, TP: 643
+\nClassification Report:
